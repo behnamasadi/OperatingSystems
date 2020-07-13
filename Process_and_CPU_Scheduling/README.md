@@ -14,12 +14,12 @@ The number of processes that can reside in the ready state at maximum decides th
 
 ## Memory Layout of C Programs (A Running Process)
 
- 1)Text  
+ 1) Text  
      code and data (variable, functions parameters,...) are stored in separate memory. All codes in the functions
      go into the code (Text) region.
- 2)Data  
+ 2) Data  
     global/static initialized data
- 3)BSS  
+ 3) BSS  
     global/static uninitialized data
  4) Heap
  5) Stack
